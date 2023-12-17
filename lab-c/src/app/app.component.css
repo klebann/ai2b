@@ -1,0 +1,24 @@
+header {
+  background-color: navy;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  margin-bottom: 1em;
+}
+
+header a {
+  color: red;
+  text-decoration: none;
+}
+
+.router-outlet {
+  height: 50vh;
+}
+
+footer {
+  padding: 1em;
+  background-color: darkgreen;
+  color: white;
+}
