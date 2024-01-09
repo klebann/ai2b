@@ -1,19 +1,17 @@
-header {
-  background-color: blue;
-  color: white;
-}
-
-h1 {
-  margin: 0;
-  padding: 0.5em;
-}
-
 .router-outlet {
-  min-height: 500px;
+  min-height: 70vh;
+}
+
+.spacer {
+  flex: 1 1 auto;
 }
 
 footer {
   background: green;
   padding: 0.5em;
   color: white;
+}
+
+mat-chip-listbox a {
+  text-decoration: none;
 }

@@ -66,4 +66,15 @@ export class TasksComponent implements OnInit {
       this.ngOnInit();
     });
   }
+
+  canArchiveCompleted() {
+    return this.tasks.map(function (task) {return task.completed}).some(Boolean);
+  }
+
+  canAddTask() {
+    if (this.newTask.title === undefined || this.newTask.title.trim().length === 0) {
+      return false;
+    }
+    return true;
+  }
 }
