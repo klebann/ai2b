@@ -1,0 +1,19 @@
+header {
+  background-color: blue;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  padding: 0.5em;
+}
+
+.router-outlet {
+  min-height: 500px;
+}
+
+footer {
+  background: green;
+  padding: 0.5em;
+  color: white;
+}
